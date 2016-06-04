@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		201DDD6F1D02ACFE0016E6A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201DDD6E1D02ACFE0016E6A9 /* AppDelegate.swift */; };
+		201DDD741D02ACFE0016E6A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201DDD721D02ACFE0016E6A9 /* Main.storyboard */; };
+		201DDD761D02ACFE0016E6A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 201DDD751D02ACFE0016E6A9 /* Assets.xcassets */; };
+		201DDD791D02ACFE0016E6A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201DDD771D02ACFE0016E6A9 /* LaunchScreen.storyboard */; };
+		201DDD841D02ACFE0016E6A9 /* VisualBlueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201DDD831D02ACFE0016E6A9 /* VisualBlueTests.swift */; };
+		20DF54F71D02AE2500761910 /* ScannedPeripheralsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DF54F61D02AE2500761910 /* ScannedPeripheralsController.swift */; };
+		69A3448792D70C1FF5129EE9 /* Pods_VisualBlue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 871AD9EABE73B89023DA7557 /* Pods_VisualBlue.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		201DDD801D02ACFE0016E6A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 201DDD631D02ACFE0016E6A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 201DDD6A1D02ACFE0016E6A9;
+			remoteInfo = VisualBlue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		201DDD6B1D02ACFE0016E6A9 /* VisualBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisualBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		201DDD6E1D02ACFE0016E6A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		201DDD731D02ACFE0016E6A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		201DDD751D02ACFE0016E6A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		201DDD781D02ACFE0016E6A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		201DDD7A1D02ACFE0016E6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		201DDD7F1D02ACFE0016E6A9 /* VisualBlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisualBlueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		201DDD831D02ACFE0016E6A9 /* VisualBlueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualBlueTests.swift; sourceTree = "<group>"; };
+		201DDD851D02ACFE0016E6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20DF54F61D02AE2500761910 /* ScannedPeripheralsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannedPeripheralsController.swift; sourceTree = "<group>"; };
+		6430EB632577F2B56FF7BAB6 /* Pods-VisualBlue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisualBlue.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VisualBlue/Pods-VisualBlue.debug.xcconfig"; sourceTree = "<group>"; };
+		871AD9EABE73B89023DA7557 /* Pods_VisualBlue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisualBlue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E060F38B91DA509556822EC0 /* Pods-VisualBlue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisualBlue.release.xcconfig"; path = "Pods/Target Support Files/Pods-VisualBlue/Pods-VisualBlue.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		201DDD681D02ACFE0016E6A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A3448792D70C1FF5129EE9 /* Pods_VisualBlue.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201DDD7C1D02ACFE0016E6A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		201DDD621D02ACFE0016E6A9 = {
+			isa = PBXGroup;
+			children = (
+				201DDD6D1D02ACFE0016E6A9 /* VisualBlue */,
+				201DDD821D02ACFE0016E6A9 /* VisualBlueTests */,
+				201DDD6C1D02ACFE0016E6A9 /* Products */,
+				FEC7AF814F6F396F0514DDEE /* Pods */,
+				A7562D379C0CB109C58CF53F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		201DDD6C1D02ACFE0016E6A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				201DDD6B1D02ACFE0016E6A9 /* VisualBlue.app */,
+				201DDD7F1D02ACFE0016E6A9 /* VisualBlueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		201DDD6D1D02ACFE0016E6A9 /* VisualBlue */ = {
+			isa = PBXGroup;
+			children = (
+				20DF54F61D02AE2500761910 /* ScannedPeripheralsController.swift */,
+				20DF54F81D02AE8C00761910 /* SupportFiles */,
+			);
+			path = VisualBlue;
+			sourceTree = "<group>";
+		};
+		201DDD821D02ACFE0016E6A9 /* VisualBlueTests */ = {
+			isa = PBXGroup;
+			children = (
+				201DDD831D02ACFE0016E6A9 /* VisualBlueTests.swift */,
+				201DDD851D02ACFE0016E6A9 /* Info.plist */,
+			);
+			path = VisualBlueTests;
+			sourceTree = "<group>";
+		};
+		20DF54F81D02AE8C00761910 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				201DDD6E1D02ACFE0016E6A9 /* AppDelegate.swift */,
+				201DDD721D02ACFE0016E6A9 /* Main.storyboard */,
+				201DDD751D02ACFE0016E6A9 /* Assets.xcassets */,
+				201DDD771D02ACFE0016E6A9 /* LaunchScreen.storyboard */,
+				201DDD7A1D02ACFE0016E6A9 /* Info.plist */,
+			);
+			name = SupportFiles;
+			sourceTree = "<group>";
+		};
+		A7562D379C0CB109C58CF53F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				871AD9EABE73B89023DA7557 /* Pods_VisualBlue.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEC7AF814F6F396F0514DDEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6430EB632577F2B56FF7BAB6 /* Pods-VisualBlue.debug.xcconfig */,
+				E060F38B91DA509556822EC0 /* Pods-VisualBlue.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		201DDD6A1D02ACFE0016E6A9 /* VisualBlue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201DDD881D02ACFE0016E6A9 /* Build configuration list for PBXNativeTarget "VisualBlue" */;
+			buildPhases = (
+				95D71C3C389665906F7E8D86 /* Check Pods Manifest.lock */,
+				201DDD671D02ACFE0016E6A9 /* Sources */,
+				201DDD681D02ACFE0016E6A9 /* Frameworks */,
+				201DDD691D02ACFE0016E6A9 /* Resources */,
+				E7BAD562BDD8EEA802AA77D1 /* Embed Pods Frameworks */,
+				6090E3E1FE9B9558F60F4A20 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisualBlue;
+			productName = VisualBlue;
+			productReference = 201DDD6B1D02ACFE0016E6A9 /* VisualBlue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		201DDD7E1D02ACFE0016E6A9 /* VisualBlueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201DDD8B1D02ACFE0016E6A9 /* Build configuration list for PBXNativeTarget "VisualBlueTests" */;
+			buildPhases = (
+				201DDD7B1D02ACFE0016E6A9 /* Sources */,
+				201DDD7C1D02ACFE0016E6A9 /* Frameworks */,
+				201DDD7D1D02ACFE0016E6A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				201DDD811D02ACFE0016E6A9 /* PBXTargetDependency */,
+			);
+			name = VisualBlueTests;
+			productName = VisualBlueTests;
+			productReference = 201DDD7F1D02ACFE0016E6A9 /* VisualBlueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		201DDD631D02ACFE0016E6A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Sheepy;
+				TargetAttributes = {
+					201DDD6A1D02ACFE0016E6A9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					201DDD7E1D02ACFE0016E6A9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 201DDD6A1D02ACFE0016E6A9;
+					};
+				};
+			};
+			buildConfigurationList = 201DDD661D02ACFE0016E6A9 /* Build configuration list for PBXProject "VisualBlue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 201DDD621D02ACFE0016E6A9;
+			productRefGroup = 201DDD6C1D02ACFE0016E6A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				201DDD6A1D02ACFE0016E6A9 /* VisualBlue */,
+				201DDD7E1D02ACFE0016E6A9 /* VisualBlueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		201DDD691D02ACFE0016E6A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201DDD791D02ACFE0016E6A9 /* LaunchScreen.storyboard in Resources */,
+				201DDD761D02ACFE0016E6A9 /* Assets.xcassets in Resources */,
+				201DDD741D02ACFE0016E6A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201DDD7D1D02ACFE0016E6A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6090E3E1FE9B9558F60F4A20 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VisualBlue/Pods-VisualBlue-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95D71C3C389665906F7E8D86 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7BAD562BDD8EEA802AA77D1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VisualBlue/Pods-VisualBlue-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		201DDD671D02ACFE0016E6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20DF54F71D02AE2500761910 /* ScannedPeripheralsController.swift in Sources */,
+				201DDD6F1D02ACFE0016E6A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201DDD7B1D02ACFE0016E6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201DDD841D02ACFE0016E6A9 /* VisualBlueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		201DDD811D02ACFE0016E6A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 201DDD6A1D02ACFE0016E6A9 /* VisualBlue */;
+			targetProxy = 201DDD801D02ACFE0016E6A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		201DDD721D02ACFE0016E6A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				201DDD731D02ACFE0016E6A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		201DDD771D02ACFE0016E6A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				201DDD781D02ACFE0016E6A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		201DDD861D02ACFE0016E6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		201DDD871D02ACFE0016E6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		201DDD891D02ACFE0016E6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6430EB632577F2B56FF7BAB6 /* Pods-VisualBlue.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VisualBlue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sheepy.VisualBlue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		201DDD8A1D02ACFE0016E6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E060F38B91DA509556822EC0 /* Pods-VisualBlue.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VisualBlue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sheepy.VisualBlue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		201DDD8C1D02ACFE0016E6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VisualBlueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sheepy.VisualBlueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisualBlue.app/VisualBlue";
+			};
+			name = Debug;
+		};
+		201DDD8D1D02ACFE0016E6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VisualBlueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sheepy.VisualBlueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisualBlue.app/VisualBlue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		201DDD661D02ACFE0016E6A9 /* Build configuration list for PBXProject "VisualBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201DDD861D02ACFE0016E6A9 /* Debug */,
+				201DDD871D02ACFE0016E6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		201DDD881D02ACFE0016E6A9 /* Build configuration list for PBXNativeTarget "VisualBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201DDD891D02ACFE0016E6A9 /* Debug */,
+				201DDD8A1D02ACFE0016E6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		201DDD8B1D02ACFE0016E6A9 /* Build configuration list for PBXNativeTarget "VisualBlueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201DDD8C1D02ACFE0016E6A9 /* Debug */,
+				201DDD8D1D02ACFE0016E6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 201DDD631D02ACFE0016E6A9 /* Project object */;
+}
