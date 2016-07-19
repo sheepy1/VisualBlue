@@ -1,5 +1,7 @@
 # VisualBlue
 
+A demo based on [RxBluetoothKit](https://github.com/Polidea/RxBluetoothKit).
+
 ## Features
 - Scan peripherals 
 - Connect peripheral
