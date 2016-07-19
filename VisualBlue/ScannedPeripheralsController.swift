@@ -38,7 +38,7 @@ class ScannedPeripheralsController: UIViewController {
 private extension ScannedPeripheralsController {
 
     func configTableView() {
-        tableView.rowHeight = 220
+        tableView.rowHeight = 250
         tableView.tableFooterView = UIView()
 
         configDataSource()
